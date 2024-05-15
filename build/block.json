@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/distanziatore",
+  "version": "0.1.0",
+  "title": "Distanziatore",
+  "category": "widgets",
+  "icon": "editor-expand",
+  "description": "Blocco che crea spazio",
+  "attributes": {
+    "paddingDesktop": {
+      "type": "number",
+      "default": 120
+    },
+    "paddingTablet": {
+      "type": "number",
+      "default": 60
+    },
+    "paddingMobile": {
+      "type": "number",
+      "default": 40
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "distanziatore",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style.css",
+  "viewScript": "file:./save.js",
+  "viewScriptModule": "file:./view.js"
+}
